@@ -75,6 +75,7 @@ const Register = () => {
     if (isError) {
       return;
     } else {
+      window.localStorage.setItem("useInfo", JSON.stringify(formValues));
       navigate("./info");
     }
   };
