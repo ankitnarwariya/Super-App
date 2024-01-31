@@ -1,9 +1,9 @@
 import {Routes, Route} from 'react-router-dom'
 import './App.css'
-import Info from './assets/Pages/Info/Info';
-import Movies from './assets/Pages/Movies/Movies';
-import Register from './assets/Pages/Register/Register';
-import Showcase from './assets/Pages/Showcase/Showcase';
+import Info from './Pages/Info/Info';
+import Movies from './Pages/Movies/Movies';
+import Register from './Pages/Register/Register';
+import Showcase from './Pages/Showcase/Showcase';
 
 function App() {
 
