@@ -71,6 +71,10 @@ const Info = () => {
     if (selectGenre.length < 3) {
       setError("Minimum 3 Generes required");
     } else {
+      window.localStorage.setItem(
+        "selectedGeneres",
+        JSON.stringify(selectGenre)
+      );
       navigate("/showcase");
     }
   };
